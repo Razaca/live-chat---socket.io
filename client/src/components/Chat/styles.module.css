@@ -1,0 +1,19 @@
+.Chat {
+    width: 100vw;
+    height: 50vh;
+    padding: 1rem;
+    color: white;
+}
+
+.chatTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.messages{
+    margin-top: 3rem;
+    position: relative;
+    z-index: -100;
+}

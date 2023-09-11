@@ -1,0 +1,26 @@
+.InputText {
+    width: 100%;
+    padding: .5rem;
+    background: #8C223F;
+    background: linear-gradient(135deg, #8C223F, #5E28C9);
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: -2px 2px 0px #8C223F;
+}
+
+
+
+.InputText>input[type="text"] {
+    width: 100%;
+    color: white;
+    padding: .3rem;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    background-color: rgba(40, 40, 40, 0.479);
+
+}
+
+.InputText>input[type="text"]:focus {
+    outline: 1px solid black;
+}

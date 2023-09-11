@@ -1,0 +1,6 @@
+.ListOfUsers {
+    padding: 1rem;
+    width: 100%;
+    background-color: rgba(55, 95, 130, 0.546);
+    border-radius: 15px;
+}

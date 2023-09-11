@@ -1,0 +1,30 @@
+.Select {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.selectTop {
+    width: 200px;
+    padding: .3rem;
+    background-color: hsl(260, 70%, 50%);
+    text-align: center;
+    text-shadow: -2px 1px 0 black;
+    border: 2px solid black;
+    z-index: 100;
+}
+
+.sala {
+    width: 200px;
+    background-color: hsl(290, 70%, 50%);
+    text-align: center;
+    padding: .3rem;
+    border: 2px solid black;
+    text-shadow: -2px 1px 0 black;
+    position: absolute;  
+    transition: all .5s ease-in;
+    cursor: pointer;
+}

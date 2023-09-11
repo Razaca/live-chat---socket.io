@@ -1,0 +1,11 @@
+.Button {
+    padding: .5rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: #8C223F;
+    background: radial-gradient(#5E28C9, #8C223F);
+    box-shadow: -2px 2px 0px #8C223F;
+}
