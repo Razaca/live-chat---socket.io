@@ -17,8 +17,8 @@ function App() {
   const dispatch = useAppDispatch();
 
   const { joinRoom, sendMessage, changeRoom } = useSocket(
-    //"https://socket-io-chat-3spn.onrender.com"
-    "http://localhost:3000"
+    "https://chat-socket-io-lnrq.onrender.com"
+    //"http://localhost:3000"
   );
 
   dispatch(setJoinRoom(joinRoom));
